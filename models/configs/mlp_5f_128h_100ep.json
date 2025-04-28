@@ -1,0 +1,18 @@
+{
+    "input_dim": 5,
+    "hidden_dim": 128,
+    "output_dim": 1,
+    "lr": 0.001,
+    "epochs": 100,
+    "batch_size": 64,
+    "features": [
+        "X_int",
+        "Y_int",
+        "X_fac",
+        "Y_fac",
+        "Ang"
+    ],
+    "targets": [
+        "Mean"
+    ]
+}
