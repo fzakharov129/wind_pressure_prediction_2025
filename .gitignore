@@ -1,0 +1,49 @@
+# --- Auto-generated for wind_pressure_prediction_2025 project ---
+
+# 1. Jupyter notebook auto-checkpoints
+.ipynb_checkpoints/
+
+# 2. Python cache files
+__pycache__/
+*.py[cod]
+
+# 3. Virtual environments
+environment/
+env/
+venv/
+
+# 4. IDE and editor settings (VS Code, etc.)
+.vscode/
+
+# 5. Logs
+*.log
+
+# 6. System files
+.DS_Store
+Thumbs.db
+
+# 7. Notebook outputs (optionally, if you want to ignore generated outputs)
+*.nbconvert.ipynb
+
+# 8. Ignore the entire notebooks folder
+notebooks/*
+
+# ⛔️ Но НЕ игнорировать папку notebooks/mlp и всё в ней
+!notebooks/mlp/
+!notebooks/mlp/**
+
+# 9. Ignore all data except the processed windloading_interference_base.csv
+data/*
+!data/processed/
+!data/processed/windloading_interference_base.csv
+
+# 10. Ignore temp folders and files (optional but safe)
+*.tmp
+*.bak
+~$*
+
+# 11 Не отправляем папку с фасадными картами
+results/figures/facade_pressure_maps/
+
+# 12 Не отправляем папку с весами и конфигурацией
+models/
