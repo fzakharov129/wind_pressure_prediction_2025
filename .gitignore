@@ -47,3 +47,9 @@ results/figures/facade_pressure_maps/
 
 # 12 Не отправляем папку с весами и конфигурацией
 models/
+
+# 13
+docs/
+
+# 14
+experiments/
